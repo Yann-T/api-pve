@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "If you don't installed jq, you should. Otherwise this script won't work."
+echo "If you haven't installed jq, you should. Otherwise this script won't work."
 
 # --------------------- #
 #Variables with prompts
