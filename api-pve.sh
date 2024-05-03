@@ -29,3 +29,5 @@ curl --silent --insecure --data "username=$username@pam&password=$password" http
 
 
 curl --silent --insecure --cookie "cookie" --header "csrftoken" https://$proxmox:8006/api2/nodes | jq .
+
+rm cookie csrftoken
